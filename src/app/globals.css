@@ -1,0 +1,146 @@
+body{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  width: 115px;
+  margin: 10px auto 20px auto;
+  background-color: #111;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 135, 180);
+}
+h3{
+  margin-top: 50px;
+}
+li{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+button{
+  margin: 5px;
+  border: 0px;
+  border-radius: 12px;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+  color: #272727;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.voltar{
+  margin-top: 20px;
+}
+.detalheEstudante{
+  text-align: left;
+  width: 500px;
+  margin: 10px auto 20px auto;
+  background-color: #111;
+  padding: 5px 10px 10px 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 135, 180);
+}
+.detalheEstudante p{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+label{
+  color: #bbb;
+  width: 80px;
+  display: inline-block;
+}
+input{
+  flex: 1;
+  border-radius: 10px;
+  border: 0px;
+  background-color: #272727;
+  color: white;
+  padding: 1px 5px 1px 5px;
+  font-size: 1em;
+}
+td p{
+  margin: 0px;
+  text-align: center;
+}
+.tabelaNotas{
+  border-collapse: collapse;
+  width: 100%;
+}
+.tabelaNotasHeader{
+  border: 1px solid rgb(0, 135, 180);
+  border-radius: 10px;
+}
+.tabelaNotasBody{
+  border: 1px solid rgb(0, 135, 180);
+  border-radius: 10px;
+}
+td, th{
+  text-align: center;
+  border: 1px solid rgb(0, 135, 180);
+}
+table{
+  border: 1px solid rgb(0, 135, 180);
+  border-radius: 10px;
+}
+.notaBoa{
+  color: green;
+}
+.notaRuim{
+  color: red;
+}
+.carregando{
+  color: yellow;
+}
+.remover{
+  color: rgb(202,41,41);
+  margin-left: 5px;
+  cursor: pointer;
+}
+.editar{
+  color: rgb(228,245,39);
+  cursor: pointer;
+  display: inline-block;
+  transform: scaleX(-1);
+  margin-left: 10px;
+}
+.confirmEditar{
+  color: rgb(43, 168, 105);
+  cursor: pointer;
+  margin-left: 10px;
+}
+.cancelEditar{
+  color: rgb(176, 179, 177);
+  cursor: pointer;
+  margin-left: 5px;
+}
+.itensLista{
+  margin-top: 5px;
+}
+.simApagar{
+  color: rgb(193, 32, 32);
+  cursor: pointer;
+  border: 1px solid rgb(193, 32, 32);
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 1px;
+}
+.naoApagar{
+  color: rgb(12, 141, 12);
+  cursor: pointer;
+  border: 1px solid rgb(12, 141, 12);
+  border-radius: 5px;
+  margin-right: 5px;
+  padding: 1px;
+}
+.apagar{
+ /* margin-left: 5px;
+  font-size: 0.9em; */
+  color: rgb(193, 32, 32);
+}
